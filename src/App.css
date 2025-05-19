@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.navbar {
+  background-color: #f5efef;
+  color: rgb(181, 128, 128);
+  text-align: center;
+  padding: 0.1%;
+  border-bottom: 1px solid #b36a6a68;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  border: 1px solid #b36a6a49;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: rgb(249, 247, 247);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card p {
+  color: #763f3f;
+}
+
+.card h3 {
+  color: rgb(181, 128, 128);
+  right: 0;
+}
+
+button {
+  border: 1px solid #763f3f82;
+  padding: 2% 7%;
+  border-radius: 15px;
+  background-color: none;
+  color: #8c5959;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #f5efef;
+  color: rgb(181, 128, 128);
+  margin-top: 2rem;
+  text-align: center;
+  padding: 0.1%;
+  border-top: 1px solid #b36a6a68;
+}
